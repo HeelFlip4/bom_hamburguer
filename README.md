@@ -1,5 +1,3 @@
-
-```markdown
 # 🍔 BOM HAMBÚRGUER - App de Pedidos
 
 Aplicativo desenvolvido em Flutter para o desafio da empresa **BOM HAMBÚRGUER**, com foco em usabilidade e regras de negócio para montagem de pedidos simples e rápidos.
@@ -40,22 +38,20 @@ Aplicativo desenvolvido em Flutter para o desafio da empresa **BOM HAMBÚRGUER**
 ## 🏗️ Estrutura de Pastas
 
 ```
-
 lib/
 ├── main.dart
 ├── models/
 │   └── product.dart
 ├── providers/
-│   ├── cardapio\_provider.dart
-│   └── cart\_provider.dart
+│   ├── cardapio_provider.dart
+│   └── cart_provider.dart
 ├── screens/
-│   ├── cardapio\_screen.dart
-│   ├── carrinho\_screen.dart
-│   └── pagamento\_screen.dart
+│   ├── cardapio_screen.dart
+│   ├── carrinho_screen.dart
+│   └── pagamento_screen.dart
 ├── widgets/
-│   └── navigation\_bar.dart
-
-````
+│   └── navigation_bar.dart
+```
 
 ## 🚀 Como Executar
 
@@ -63,27 +59,24 @@ lib/
    ```bash
    git clone https://github.com/seu-usuario/bom-hamburguer-app.git
    cd bom-hamburguer-app
-````
+   ```
 
 2. Instale as dependências:
-
    ```bash
    flutter pub get
    ```
 
 3. Execute no emulador ou dispositivo:
-
    ```bash
    flutter run
    ```
 
 > 💡 Certifique-se de ter o **Flutter SDK** instalado e o **Xcode com CocoaPods** configurado corretamente para rodar em iOS.
 
-## 📷 Imagens (opcional)
+## 📷 Imagens
 
 Em breve: prints das telas de cardápio, carrinho e pagamento.
 
 ## 📁 Licença
 
 Este projeto foi desenvolvido exclusivamente para fins de avaliação técnica e não possui fins comerciais.
-
