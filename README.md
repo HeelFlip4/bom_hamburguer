@@ -75,7 +75,7 @@ lib/
 
 ## 📷 Imagens
 
-Em breve: prints das telas de cardápio, carrinho e pagamento.
+![Demo](assets/demo.gif)
 
 ## 📁 Licença
 
