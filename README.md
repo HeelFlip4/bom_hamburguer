@@ -75,7 +75,22 @@ lib/
 
 ## 📷 Imagens
 
-![Demo](assets/demo.gif)
+![Demo](lib/assets/demo.gif)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📁 Licença
 
