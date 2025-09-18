@@ -252,8 +252,7 @@ class Cardapio extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: ElevatedButton(
-              onPressed: () {
-                // Adicionar itens selecionados ao carrinho
+              onPressed: () { 
                 final cartProvider = Provider.of(context, listen: false);
                 for (final item in provider.selectedItemsList) {
                   cartProvider.addItem(item);

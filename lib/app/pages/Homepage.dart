@@ -14,7 +14,6 @@ class _HomePageState extends State<HomePage>
   late Animation<double> _fadeAnimation;
   late Animation<Offset> _slideAnimation;
 
-  // Cores do design system (equivalente ao CSS)
   static const Color primaryColor = Color(0xFFF5C842); // --primary
   static const Color backgroundColor = Color(0xFFFCFCFC); // --background
   static const Color foregroundColor = Color(0xFF1F2937); // --foreground
@@ -167,7 +166,7 @@ class _HomePageState extends State<HomePage>
               children: [
                 const TextSpan(text: 'Bom '),
                 TextSpan(
-                  text: 'Hambúrguer',
+                  text: 'Hamburguer',
                   style: TextStyle(color: primaryColor),
                 ),
               ],
@@ -191,7 +190,6 @@ class _HomePageState extends State<HomePage>
           LayoutBuilder(
             builder: (context, constraints) {
               if (constraints.maxWidth > 480) {
-                // Layout horizontal para telas maiores
                 return Row(
                   mainAxisAlignment: isLargeScreen 
                       ? MainAxisAlignment.start 
@@ -203,7 +201,7 @@ class _HomePageState extends State<HomePage>
                   ],
                 );
               } else {
-                // Layout vertical para telas menores
+
                 return Column(
                   children: [
                     _buildPrimaryButton(context),
@@ -294,7 +292,6 @@ class _HomePageState extends State<HomePage>
   Widget _buildSecondaryButton(BuildContext context) {
     return OutlinedButton(
       onPressed: () {
-        // Ação do botão "Sobre Nós"
       },
       style: OutlinedButton.styleFrom(
         foregroundColor: foregroundColor,
@@ -335,7 +332,6 @@ class _HomePageState extends State<HomePage>
             LayoutBuilder(
               builder: (context, constraints) {
                 if (constraints.maxWidth > 768) {
-                  // Layout desktop - 3 colunas
                   return Row(
                     children: features
                         .asMap()
@@ -354,7 +350,6 @@ class _HomePageState extends State<HomePage>
                         .toList(),
                   );
                 } else {
-                  // Layout mobile - 1 coluna
                   return Column(
                     children: features
                         .asMap()
@@ -493,7 +488,7 @@ class _HomePageState extends State<HomePage>
   }
 }
 
-// Classe para os itens de feature
+
 class FeatureItem {
   final IconData icon;
   final String title;
